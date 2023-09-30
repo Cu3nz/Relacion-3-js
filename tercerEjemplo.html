@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tercer ejemplo Tipos de datos Nativos</title>
+  </head>
+  <body>
+    <style>
+      h1 {
+        text-align: center;
+        color: rgb(119, 3, 3);
+      }
+
+      body {
+        background-color: #000;
+        color: #fff;
+        font-size: 20px;
+      }
+    </style>
+
+    <script>
+      console.log("-----------Tercer ejemplo------");
+
+      let str = "123"; // Es una  cadena
+      console.log("La variable str es de tipo: " , typeof(str)) // Imprime por consola que es un string. 
+      let esmayor = 4>1; // variable local
+      console.log("¿4 es mayor que 1? ",esmayor); // devuelve true por consola porque 4 es mayor que 1. 
+      esmayor = 10; // variable global, sobreescribe a la variable local
+      console.log("La variable global esmayor almacena el numero: ",esmayor); // devuelve por consola 10.
+
+    </script>
+  </body>
+</html>
